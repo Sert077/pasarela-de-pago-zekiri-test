@@ -9,17 +9,17 @@ const Hero = () => {
           <span className="font-extrabold">tienda en línea</span>
         </h1>
         <p className="mt-4 text-lg text-black">
-          Escoge la pasarela de pago que más te convenga y la integramos por ti.
-          Además podemos ayudarte a recibir pagos en línea desde cualquier lugar de forma simple y sin rebotes.
-        </p>
-        <div className="mt-8">
+          Escoge la pasarela de pago que más te convenga y la integramos por ti.</p>
+          <p className= "text-black"> Además podemos ayudarte a recibir pagos en línea desde cualquier lugar de forma simple y sin rebotes.</p>
+        
+        <div className="mt-1">
           <img 
             src="/images/laptopzekiri.png" 
             alt="Laptop" 
-            className="mx-auto w-1/3" 
+            className="mx-auto w-1/4" 
           />
         </div>
-        <div className="mt-8">
+        <div className="mt-1">
           <a 
             href="https://wa.link/tc8pce" 
             target="_blank" 
