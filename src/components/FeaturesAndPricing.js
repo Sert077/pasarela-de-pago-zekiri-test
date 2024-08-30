@@ -28,7 +28,7 @@ const FeaturesAndPricing = () => {
             <h3 className="text-xl font-semibold text-black">Plan Básico</h3>
             <p className="mt-4 text-gray-700">$10/mes</p>
             <ul className="mt-4 text-gray-700 text-left">
-              <li>- 10 Integraciones</li>
+              <li>- 2 Integraciones</li>
               <li>- Soporte Básico</li>
               <li>- Seguridad Estándar</li>
             </ul>
@@ -37,7 +37,7 @@ const FeaturesAndPricing = () => {
             <h3 className="text-xl font-semibold text-black">Plan Pro</h3>
             <p className="mt-4 text-gray-700">$30/mes</p>
             <ul className="mt-4 text-gray-700 text-left">
-              <li>- 50 Integraciones</li>
+              <li>- 10 Integraciones</li>
               <li>- Soporte Prioritario</li>
               <li>- Alta Seguridad</li>
             </ul>

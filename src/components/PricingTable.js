@@ -3,11 +3,12 @@
 import React from 'react';
 
 const pricingData = {
-  plans: ["FREE", "VENTURE", "BUSINESS", "UNLIMITED"],
+  plans: ["FREE", "BASICO", "PRO", "PREMIUM"],
   features: [
-    { name: "Precio mensual", values: ["Mx0", "Mx100", "Mx200", "Mx300"] },
-    { name: "Precio mensual con pago anual", values: ["Mx0", "Mx90", "Mx175", "Mx245"] },
-    { name: "Tasa de la transacción", values: ["Mx0", "5%", "5%", "5%"] },
+    { name: "Precio mensual", values: ["USD0", "USD10", "USD30", "USD50"] },
+    { name: "Precio anual", values: ["USD0", "USD96", "USD300", "USD480"] },
+    { name: "Precio mensual con pago anual", values: ["USD0", "USD8", "USD25", "USD40"] },
+    { name: "Tasa de la transacción", values: ["USD0", "5%", "5%", "5%"] },
   ],
   salesChannels: [
     { name: "Tienda en línea", values: [true, true, true, true] },
@@ -22,7 +23,7 @@ const PricingTable = () => {
     <section className="bg-white py-16">
       <div className="container mx-auto px-4">
         <h2 className="text-3xl font-bold text-center mb-8 text-black">Cómo elegir la mejor pasarela para tu tienda en línea</h2>
-        <p className="text-center mb-8 text-black">Comparativa de pasarelas de pago</p>
+        <p className="text-2xl text-center mb-10 text-black">Nuestros Planes</p>
         <div className="overflow-x-auto">
           <table className="table-auto w-full text-left border-collapse text-black">
             <thead>
