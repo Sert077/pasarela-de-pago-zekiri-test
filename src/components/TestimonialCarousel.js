@@ -48,7 +48,7 @@ const TestimonialCarousel = () => {
           {/* Contenedor del carrusel */}
           <div className="flex overflow-x-auto space-x-8 justify-center">
             <div className="w-full md:w-2/3 flex-shrink-0 p-4 bg-white rounded shadow mx-auto">
-              <p className="text-lg text-gray-800">"{testimonials[currentIndex].quote}"</p>
+              <p className="text-lg text-gray-800">&quot;{testimonials[currentIndex].quote}&quot;</p>
               <h3 className="mt-4 text-xl font-semibold text-black">{testimonials[currentIndex].name}</h3>
             </div>
           </div>
